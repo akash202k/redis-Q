@@ -1,5 +1,7 @@
 import { client } from "./redisClient"
 import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
 
 const app = express();
 const port = 8080;
